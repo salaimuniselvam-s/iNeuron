@@ -1,0 +1,22 @@
+{
+  "name": "assignment-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "leapYear": "node 01-LeapYear.js",
+    "temp": "node 02-Temperature.js",
+    "factorial": "node 03-Factorial.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salaimuniselvam-s/iNeuron.git"
+  },
+  "author": "Salai Muni Selvam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salaimuniselvam-s/iNeuron/issues"
+  },
+  "homepage": "https://github.com/salaimuniselvam-s/iNeuron#readme"
+}
