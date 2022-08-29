@@ -8,16 +8,22 @@ node js
 
 ## Building and running on localhost
 
-To run Triangle Problem ,
+To run Pattern Problem ,
 
 ```sh
-npm run triangle
+npm run pattern
 ```
 
-To run find Grade Problem Using Switch,
+To run Armstrong Number Problem ,
 
 ```sh
-npm run grade
+npm run armstrong
+```
+
+To run Special Number Problem,
+
+```sh
+npm run 03-SpecialNumber
 ```
 
 To run Multiples of 3 & 5 problem,

@@ -1,14 +1,13 @@
 {
-  "name": "assignment-2",
+  "name": "assignment-3",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "traingle": "node 01-Traingle",
-    "grade": "node 02-Grade",
-    "multiples": "node  03-Multiples",
-    "prime": "node  04-Prime"
+    "armstrong": "node 02-armstrong",
+    "specialnumber": "node 03-SpecialNumber",
+    "pattern": "node 01-Pattern"
   },
   "repository": {
     "type": "git",
