@@ -1,6 +1,6 @@
 # iNeuronAi
 
-Ineuron - Assignment 1
+Ineuron - Assignment 2
 
 ## pre-requiste
 
@@ -8,20 +8,26 @@ node js
 
 ## Building and running on localhost
 
-To run Leap Year ,
+To run Triangle Problem ,
 
 ```sh
-npm run leapYear
+npm run triangle
 ```
 
-To run Temperature Conversion,
+To run find Grade Problem Using Switch,
 
 ```sh
-npm run temp
+npm run grade
 ```
 
-To run Factorial,
+To run Multiples of 3 & 5 problem,
 
 ```sh
-npm run factorial
+npm run multiples
+```
+
+To run Prime Number Problem,
+
+```sh
+npm run prime
 ```

@@ -1,0 +1,53 @@
+function findGrade(marks) {
+  let grade =
+    marks >= 90 && marks <= 100
+      ? "S"
+      : marks >= 80 && marks <= 89
+      ? "A"
+      : marks >= 70 && marks <= 79
+      ? "B"
+      : marks >= 60 && marks <= 69
+      ? "C"
+      : marks >= 50 && marks <= 59
+      ? "D"
+      : marks >= 40 && marks <= 49
+      ? "E"
+      : marks >= 0 && marks <= 39
+      ? "F"
+      : "def";
+
+  switch (grade) {
+    case "S":
+      console.log("S Grade");
+      break;
+    case "A":
+      console.log("A Grade");
+      break;
+    case "B":
+      console.log("B Grade");
+      break;
+    case "C":
+      console.log("C Grade");
+      break;
+    case "D":
+      console.log("D Grade");
+      break;
+    case "E":
+      console.log("E Grade");
+      break;
+    case "F":
+      console.log("Student has failed");
+      break;
+    default:
+      console.log("Invalid Marks");
+  }
+}
+
+findGrade(90);
+findGrade(83);
+findGrade(77);
+findGrade(65);
+findGrade(54);
+findGrade(47);
+findGrade(33);
+findGrade("du");
