@@ -1,6 +1,6 @@
 # iNeuronAi
 
-Ineuron - Assignment 2
+Ineuron - Assignment 3
 
 ## pre-requiste
 
@@ -24,16 +24,4 @@ To run Special Number Problem,
 
 ```sh
 npm run 03-SpecialNumber
-```
-
-To run Multiples of 3 & 5 problem,
-
-```sh
-npm run multiples
-```
-
-To run Prime Number Problem,
-
-```sh
-npm run prime
 ```
