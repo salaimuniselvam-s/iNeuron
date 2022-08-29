@@ -23,5 +23,5 @@ npm run armstrong
 To run Special Number Problem,
 
 ```sh
-npm run 03-SpecialNumber
+npm run specialnumber
 ```
