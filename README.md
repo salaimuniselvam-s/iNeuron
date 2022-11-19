@@ -1,6 +1,6 @@
 # iNeuronAi
 
-Ineuron - Assignment 1
+Ineuron - Assignment 22 (Solidity Assignment 1)
 
 ## pre-requiste
 
@@ -8,20 +8,30 @@ node js
 
 ## Building and running on localhost
 
-To run Leap Year ,
+Installing Packages
 
 ```sh
-npm run leapYear
+yarn || npm install
 ```
 
-To run Temperature Conversion,
+Add your Private Key & Rpc Server of the Ganache or other Providers in .env file
 
 ```sh
-npm run temp
+Refer .env.example
 ```
 
-To run Factorial,
+Compile and deploy the contract,
 
 ```sh
-npm run factorial
+yarn compile
+```
+
+```sh
+yarn deploy
+```
+
+To run Remove Array Element Contract,
+
+```sh
+yarn removeElement
 ```

@@ -1,22 +1,29 @@
 {
-  "name": "assignment-1",
+  "name": "ineuron",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "leapYear": "node 01-LeapYear.js",
-    "temp": "node 02-Temperature.js",
-    "factorial": "node 03-Factorial.js"
+    "compile": "yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . RemoveElementsFromArray.sol",
+    "deploy": "node deployRemoveElementsFromArray.js",
+    "removeElement": "node removeArrayElement.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/salaimuniselvam-s/iNeuron.git"
   },
-  "author": "Salai Muni Selvam",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/salaimuniselvam-s/iNeuron/issues"
   },
-  "homepage": "https://github.com/salaimuniselvam-s/iNeuron#readme"
+  "homepage": "https://github.com/salaimuniselvam-s/iNeuron#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2",
+    "fs-extra": "^10.1.0",
+    "solc": "^0.8.17"
+  }
 }
