@@ -1,0 +1,7 @@
+Deployment Cost = 513300
+
+Reading StorageStruct Gas Fee = 131424
+
+Reading MemoryStruct Gas Fee = 24872 (Cost only applies when called by a contract)
+
+Reading CallDataStruct Gas Fee = 24239 (Cost only applies when called by a contract)
