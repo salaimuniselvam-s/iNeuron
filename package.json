@@ -1,0 +1,36 @@
+{
+  "name": "ineuron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "coverage": "npx hardhat coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salaimuniselvam-s/iNeuron.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salaimuniselvam-s/iNeuron/issues"
+  },
+  "homepage": "https://github.com/salaimuniselvam-s/iNeuron#readme",
+  "devDependencies": {
+    "@chainlink/contracts": "^0.3.1",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
+    "@nomiclabs/hardhat-waffle": "^2.0.2",
+    "chai": "^4.3.4",
+    "dotenv": "^14.2.0",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.12.4",
+    "hardhat-gas-reporter": "^1.0.7",
+    "solidity-coverage": "^0.7.18"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2"
+  }
+}
