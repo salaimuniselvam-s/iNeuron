@@ -11,7 +11,7 @@
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/salaimuniselvam-s/iNeuron.git
+   git clone -b multisig https://github.com/salaimuniselvam-s/iNeuron.git
    ```
 
 2. Install NPM packages
